@@ -1,5 +1,5 @@
 /*
-Project : Cryptotrades
+Project : Blockchain Management Systems
 FileName :  config.js
 Author : LinkWell
 File Created : 21/07/2021
@@ -11,21 +11,21 @@ const config = {
       port: 3000
     },
     db: {
-      host: 'localhost',
-      port: 27017,
-      username: '',
+      host: 'mongodb',
+      port: 10068,
+      username: 'root',
       password: '',
       name: 'metamask',
-      prefix:'linkwell_'
+      prefix:'Nettking'
     },
     mail: {
-      type:"",
+      type:"smtp",
       smtp: {
-        host:"smtp.sendgrid.net",
-        secure:false,
-        port:587,
-        username:'',
-        password:''
+        host:"mail.byggminblokkjede.no",
+        secure:true,
+        port:465,
+        username:'post@byggminblokkjede.no',
+        password:'Nettking2022!'
       }
     },
     site_name:'Cryptotrades',
