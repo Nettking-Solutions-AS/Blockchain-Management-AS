@@ -8,12 +8,12 @@ Purpose : This is the file which maintain globl variable for the application
 */
 const config = {
     app: {
-      port: 3000
+      port: 5000
     },
     db: {
       host: 'mongodb',
-      port: 10068,
-      username: 'root',
+      port: 27017,
+      username: '',
       password: '',
       name: 'metamask',
       prefix:'Nettking'
@@ -37,7 +37,7 @@ const config = {
     rpcurl: "https://rinkeby.infura.io/v3/64fa77a39b9a4c31b186fb2148edff70",
     owner: {
       address: "0xaCeEF0453dE61B48CF0159749f192F5fc6a77298",
-      key: "a8f617ed9d45404af91bdacaf901fb9bb60669f6c57bc969597301277725faf3"
+      key: "1c0cf08b59bc41dab3553be46203a33e"
     }
    };
    
