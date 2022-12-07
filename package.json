@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "lynt": "^0.5.5",
-    "prettier": "2.7.1"
+    "prettier": "2.8.1"
   },
   "scripts": {
     "lint": "lynt"
